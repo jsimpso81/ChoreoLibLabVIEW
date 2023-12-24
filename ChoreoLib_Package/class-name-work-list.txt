@@ -1,0 +1,114 @@
+
+Based on Beta 5 with updates from Nov 9 - 461 and 460
+source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\java\com\pathplanner\lib\path
+
+
+Work list:
+	X path replan
+	x examples
+	X doc for new functions (write path)
+	X macros for controllers
+	X menus for new functions and macros.
+	\ look at adding holonomic rotational velocity to trajectory state 
+		(so far keep it compatible with java/c - not now)
+	- testing - build path with all different event marker variation to ensure parsing.
+	- testing - java pgm to make csv file to compare with.
+	n/a commands/FollowPath(base for next three) - nothing really to do - 
+
+	- commands/FollowHolonomicPath 
+	- commands/FollowLTVPath 
+	- commands/FollowRamsetePath 
+
+	- commands/FollowHolonomicPathWithEvents (add events)
+	- commands/FollowLTVPathWithEvents (add events)
+	- commands/FollowRamsetePathWithEvents (add events)
+
+	- commands/FindFollowHolonomicPathWithEvents
+	- commands/FindFollowLTVPathWithEvents
+	- commands/FindFollowRamsetePathWithEvents
+
+	- ADStar (labview already has an implementation, can it be used?)
+	- auto
+
+
+Legend
+- - not done at all (or blank)
+X - completely done
+/ - partially done -- notes indicate what isn't done.
+! - major work to do
+\ - not now.
+
+
+pathplanner labview 24 work check list.
+
+created done	doc	Java class			labview name prefix
+
+X	X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
+
+X	X	X	path/EventMarker			PathPlanner_EventMarker
+
+X	X	X	path/GoalEndState			PathPlanner_GoalEndState
+
+X	X	X	path/PathConstraints			PathPlanner_PathConstraints
+
+X	/	X	path/PathPlannerPath			PathPlanner_Path
+				dont need	pointFromJson
+				mostly		fromPathFile (doesn't do telemetry)
+			
+
+X	X	X	path/PathPlannerTrajectory		PathPlanner_Trajectory
+			x	enhance		readCSVFile
+			x	enhance		wrteCSVFile
+
+X	X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+			x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
+
+X	X	X	path/PathPoint				PathPlanner_PathPoint
+
+X	X	X	path/PathSegment			PathPlanner_PathSegment
+
+X	X	X	path/RotationTarget			PathPlanner_RotationTarget
+
+
+-	-	-	util/ChassisSpeedRateLimit	(not used anywhere)		
+
+created done	doc	Java class			labview name prefix
+X	X	X	util/GeometryUtil
+
+NO	NO	NO	controllers/PathFollowingController	-- interface
+
+X	X	X	controllers/PPHolonomicDriveController
+
+X	X	X	controllers/PPLTVController
+
+X	X	X	controllers/PPRamseteController
+
+X	X	X	util/ReplanningConfig
+
+			commands/FollowPath(base for next three)
+			commands/FollowHolonomicPath 
+			commands/FollowLTVPath 
+			commands/FollowRamsetePath 
+			commands/FollowHolonomicPathWithEvents (add events)
+			commands/FollowLTVPathWithEvents (add events)
+			commands/FollowRamsetePathWithEvents (add events)
+			commands/FindFollowHolonomicPathWithEvents
+			commands/FindFollowLTVPathWithEvents
+			commands/FindFollowRamsetePathWithEvents
+
+			commands/RunAuto
+
+			util/HolonomicPathFollowerConfig
+			util/PathPlannerLogging
+			util/PIDConstants
+			util/PPLibTelemetry
+
+			pathfinding/LocalADStar
+			pathfinding/Pathfinder
+			pathfinding/Pathfinding
+
+			auto/... not now
+			commands/... not now
+
+		
+		

@@ -1,0 +1,29 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs, Linux shared object libraries)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables / NI Packages
+*.exe
+*.rtexe
+*.nipkg
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+
+# ignore builds
+**/builds/**
+**/bin/**
+**/buildsALL/**
+
+
+# ignore doc builder temp files
+/Temp/**
+/Temp2/**
