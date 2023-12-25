@@ -10,7 +10,7 @@ These first steps create and populate the "build" directory from which the insta
 
 1)Run the "All Source Distribution".  This copies the library VI to the builds directory.
 
-2) If this is a release version, open all the "pathplannerexampleslvXX"  build specifications properties.  Update the minor version number (3rd number from the left).  
+2) If this is a release version, open all the "choreoexampleslvXX"  build specifications properties.  Update the minor version number (3rd number from the left).  
 
-3) Run all the "pathplannerexampleslvXX" build packages.  This builds the package installer.  The package file can then be used to install the library..
+3) Run all the "choreoexampleslvXX" build packages.  This builds the package installer.  The package file can then be used to install the library..
 

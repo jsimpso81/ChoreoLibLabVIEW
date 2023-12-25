@@ -10,7 +10,10 @@
 
 </Property>
 	<Item Name="Enum" Type="Folder"/>
-	<Item Name="Macros" Type="Folder"/>
+	<Item Name="Macros" Type="Folder">
+		<Item Name="_macro_Choreo_Command.vi" Type="VI" URL="../Macros/_macro_Choreo_Command.vi"/>
+		<Item Name="_macro_Choreo_GetTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetTrajectory.vi"/>
+	</Item>
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="ChoreoSwerveControlConfig.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveControlConfig.ctl"/>
 		<Item Name="ChoreoTrajectory.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectory.ctl"/>
@@ -21,6 +24,7 @@
 			<Item Name="Choreo_Choreo_GetTrajectory.vi" Type="VI" URL="../VI/Choreo_Choreo_GetTrajectory.vi"/>
 			<Item Name="Choreo_Choreo_SwerveCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveCommand.vi"/>
 			<Item Name="Choreo_Choreo_SwerveController.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveController.vi"/>
+			<Item Name="Choreo_Choreo_SwerveControllerPackConfig.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveControllerPackConfig.vi"/>
 			<Item Name="Choreo_Choreo_TrajectoryFromJSON.vi" Type="VI" URL="../VI/Choreo_Choreo_TrajectoryFromJSON.vi"/>
 		</Item>
 		<Item Name="ChoreoTrajectory" Type="Folder">
