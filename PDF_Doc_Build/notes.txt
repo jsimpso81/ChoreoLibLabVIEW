@@ -18,10 +18,10 @@ Run each main program for Doc, Typedef, Enum
 DOC
 ---
 output
-C:\Shares\github\ChoreoLabVIEW\Temp
+C:\Shares\github\ChoreoLibLabVIEW\Temp
 
 source library
-C:\Shares\github\ChoreoLabVIEW\ChoreoLib\VI
+C:\Shares\github\ChoreoLibLabVIEW\ChoreoLib\VI
 
 second source library
  -- none - turn off use second directory switch
@@ -29,19 +29,19 @@ second source library
 TYPEDEF
 -------
 output
-C:\Shares\github\ChoreoLabVIEW\Temp2
+C:\Shares\github\ChoreoLibLabVIEW\Temp2
 
 source
-C:\Shares\github\ChoreoLabVIEW\ChoreoLib\TypeDef
+C:\Shares\github\ChoreoLibLabVIEW\ChoreoLib\TypeDef
 
 
 ENUM
 -------
 output
-C:\Shares\github\ChoreoLabVIEW\Temp2
+C:\Shares\github\ChoreoLibLabVIEW\Temp2
 
 source
-C:\Shares\github\ChoreoLabVIEW\ChoreoLib\ENum
+C:\Shares\github\ChoreoLibLabVIEW\ChoreoLib\ENum
 
 
 Need to edit TYPEDEF and ENUM html files since these are not in separate directories.
