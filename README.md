@@ -1,9 +1,8 @@
-# PathPlanner LabVIEW Port
+# ChoreoLib LabVIEW Port
 
-This library is port of the PathPlanner Library to LabVIEW.  The library is used for the First FRC robotics competition.
+This library is port of the Choreo Library to LabVIEW.  The library is used for the First FRC robotics competition.
 
-
-This repository contains the library and a LabVIEW project used to build the library install package.  It also contains separate projects with test and example programs.
+This repository contains the library and a LabVIEW project used to build the library install package.  It also contains separate projects with test (future) and example programs.
 
 ---
 ## Installs
@@ -14,7 +13,7 @@ There are a number of prerequisites needed before installing this library.
 1. Install the FRC version of LabVIEW.  
 1. Install the FRC game tools
 
-Download the latest install package.  These can be found in the **Releases** section of the github repository.  Here is a direct link.  https://github.com/jsimpso81/PathPlannerLabVIEW/releases/latest
+Download the latest install package.  These can be found in the **Releases** section of the github repository.  Here is a direct link.  https://github.com/jsimpso81/ChoreoLibLabVIEW/releases/latest
 
 Select the *.nipkg* installation file, then double click it, or right click and select install.  Administrative privledges will be needed to perform this installation.  Follow the instructions.  Usually selection of all the default answers is sufficient.  Installation should take 5 minutes or less.
 
@@ -24,7 +23,7 @@ Previous versions do not have to be uninstalled prior to installing a new versio
 
 ### Removal
 
-To uninstall, open NI Package Manager.  Select the *Installed* tab.  Find and highlight  **PathPlannerLiabVIEW**.  Then click the *REMOVE* button.  The uninstall should start. It should take 5 minutes or less.
+To uninstall, open NI Package Manager.  Select the *Installed* tab.  Find and highlight  **ChoreoLibLabVIEW**.  Then click the *REMOVE* button.  The uninstall should start. It should take 5 minutes or less.
 
 ![sample uninstall!](images/SampleUninstall.png)
 
@@ -72,4 +71,4 @@ should be written solely by FRC student members, with confirmation from a mentor
 See ![Contributing.md!](Contributing.md) for additional details.
 
 ---
-File last updated: 12/6/2022
+File last updated: 12/27/2023
