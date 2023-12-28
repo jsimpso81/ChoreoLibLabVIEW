@@ -20,6 +20,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="ChoreoLib.lvlib" Type="Library" URL="../../ChoreoLib/ChoreoLib.lvlib"/>
+		<Item Name="class-name-work-list.txt" Type="Document" URL="../class-name-work-list.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
