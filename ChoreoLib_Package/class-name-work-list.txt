@@ -8,6 +8,7 @@ Work list:
 	- document
 	- package
 	- release
+	X finish examples.
 
 
 Legend
