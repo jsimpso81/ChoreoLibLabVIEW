@@ -12,12 +12,13 @@ This repository contains the library and a LabVIEW project used to build the lib
 There are a number of prerequisites needed before installing this library.
 1. Install the FRC version of LabVIEW.  
 1. Install the FRC game tools
+1. Install the WPILIB Math LabVIEW Library https://github.com/jsimpso81/WPILIBMathLabVIEW/releases/latest
 
 Download the latest install package.  These can be found in the **Releases** section of the github repository.  Here is a direct link.  https://github.com/jsimpso81/ChoreoLibLabVIEW/releases/latest
 
 Select the *.nipkg* installation file, then double click it, or right click and select install.  Administrative privledges will be needed to perform this installation.  Follow the instructions.  Usually selection of all the default answers is sufficient.  Installation should take 5 minutes or less.
 
-![sample install!](images/SampleInstall.png)
+![sample install!](images/ChoreoLib_Install.png)
 
 Previous versions do not have to be uninstalled prior to installing a new version.  The new version will automatically upgrade the older version.
 
@@ -25,26 +26,43 @@ Previous versions do not have to be uninstalled prior to installing a new versio
 
 To uninstall, open NI Package Manager.  Select the *Installed* tab.  Find and highlight  **ChoreoLibLabVIEW**.  Then click the *REMOVE* button.  The uninstall should start. It should take 5 minutes or less.
 
-![sample uninstall!](images/SampleUninstall.png)
+![sample uninstall!](images/Choreo_Uninstall.png)
 
 ---
 ## Library Summary
 
-The library includes a large collection of subVIs that can be used in robot programs.
+The library includes a collection of subVIs that can be used in robot programs.  Generally only two main VIs will be needed:
+- Get Trajectory (Read trajectory file)
+- Swerve Command (Execute trajectory)
 
-             |
+
 ### Menus
  
 Menu items for all the subVI's are included as part of the standard LabVIEW WPI Robotics Library menu
 
-![sample VI menu!](images/SampleLabViewMenu.png)
+![sample VI menu!](images/ChoreoLib_Menu.png)
+
+### Menu Macros
+ 
+Menu Macros place entire snippets of code into a VI.  This greatly speeds development, by eliminating many tasks of adding a function call to your code.
+
+![sample VI menu!](images/ChoreoLib_MenuMacro.png)
 
 
 ### Help
 
 Each VI includes help that can be accessed using the standard LabVIEW help toggle (Ctrl H).
 
-![sample help!](images/SampleViHelp.png)
+![sample help!](images/ChoreoLib_HelpSample.png)
+
+### Reference Manual
+In addition to help for each individual function VI, a separate PDF document contains all the documentation.  A link to this document is placed on the public desktop, so it is accessible by all useers.
+
+### Examples
+
+A separately installed package includes a number of examples using this library.  They are added to the LabVIEW Find Examples collection.
+
+![sample uninstall!](images/ChoreoLib_Examples.png)
 
 
 ---
