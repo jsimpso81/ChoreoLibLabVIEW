@@ -1071,7 +1071,6 @@
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PPS_TRAJECTORY_EXECUTE_REL.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_EXECUTE_REL.vi"/>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1929,7 +1928,6 @@ DirectoryIndex index.htm
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PPS_TRAJECTORY_EXECUTE_REL.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_EXECUTE_REL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
