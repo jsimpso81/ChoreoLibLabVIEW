@@ -29,17 +29,68 @@ Notes on file naming:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Choreo_SwerveCommand" >Choreo_Choreo_SwerveCommand</h3>
 <p><IMG SRC="Choreo_Choreo_SwerveCommand_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Command to assist in the execution of a Choreo Trajectory.   This wraps the ChoreoSwerveCtrl VI.<BR>
+<BR>
+Inputs:<BR>
+  -  TimePastEndSeconds - double - Number of seconds past the end of the trajectory to continue to control robot position.  (Optional.  Default: 3.0 )<BR>
+  -  ChoreoSwerveControlConfig - cluster - Controller configuration data<BR>
+  -  Current Pose - pose2d  -  Current robot position pose calcualted by either Odometry or Pose Estimation.<BR>
+  -  ChoreoTrajectory - cluster - Choreotrajectory list<BR>
+  -  Initialize  -  boolean  -  Set to true for one scan cycle when starting a trajectory.  Resets the elapsed time and controllers.<BR>
+  -  Auto - boolean - When TRUE closed loop control is used to control trajectory execution.  This is mostly for debugging and robot tuning.  (Optional.  Default: TRUE )<BR>
+  -  Mirror For Red Alliance  -  boolean  -  Whether or not to mirror the path based on alliance (this assumes the path is created for the blue alliance)   If TRUE, the alliance color is queried and if RED, the trajectory is flipped for execution.<BR>
+  -  PassThroughTime  - double  -  Continueually counting time (seconds) read from the FGPA on roboRIO or local computer when running on PC.  (Optional:  Default: Read FGPA time )<BR>
+<BR>
+Outputs:<BR>
+  -  Choreo Speed Demand  - chassis speed - Desired chassis speed (M/S, Rad/Sec)<BR>
+  -  On Target - boolean - TRUE when robot position is within tolerance of trajectory position<BR>
+  -  Complete - boolean - TRUE when trajectory time has elapsed and robot is on target or when trajectory time is "TimePastEndSeconds" past trajectory  end time regardless of On Target status.<BR>
+  -  Ctrl Info  -  cluster  -  Information on control.  Mostly for diagnostics.<BR>
+<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Choreo_SwerveController" >Choreo_Choreo_SwerveController</h3>
 <p><IMG SRC="Choreo_Choreo_SwerveController_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Creates and executes a swerve drive control function to execute a Choreo Trajectory sample.   The controller consists of three advanced PID controllers, one for X position, Y position, and Rotation.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoSwerveControlConfig - cluster - Controller configuration data<BR>
+  -  Current Pose - pose2d  -  Current robot position pose calcualted by either Odometry or Pose Estimation.<BR>
+  -  ChoreoTrajectoryState - cluster - Trajectory state to execute<BR>
+  -  Reset  -  boolean  -  Resets the controllers.<BR>
+  -  Auto - boolean - When TRUE closed loop control is used to control trajectory execution.  This is mostly for debugging and robot tuning.  (Optional.  Default: TRUE )<BR>
+  -  PassThroughTime  - double  -  Continueually counting time (seconds) read from the FGPA on roboRIO or local computer when running on PC.  (Optional:  Default: Read FGPA time )<BR>
+<BR>
+Outputs:<BR>
+  -  Choreo Speed Demand  - chassis speed - Desired chassis speed (M/S, Rad/Sec)<BR>
+  -  On Target - boolean - TRUE when robot position is within tolerance of trajectory position<BR>
+  -  Ctrl Info  -  cluster  -  Information on control.  Mostly for diagnostics.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Choreo_SwerveControllerPackConfig" >Choreo_Choreo_SwerveControllerPackConfig</h3>
 <p><IMG SRC="Choreo_Choreo_SwerveControllerPackConfig_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Packs the configuration information for a Choreo Swerve Controller into a cluster for use by the Choreo Swerve Controller or the Choreo Swerve Command functions.<BR>
+<BR>
+Note:<BR>
+  -  Defaults have been chosen for the inputs, however tuning based on actual performance is advised.<BR>
+<BR>
+Inputs:<BR>
+  -  X Adv PID Limits - cluster - Input and output limits for the X position PID  (Optional.)<BR>
+  -  X Adv PID Tuning - cluster - Tuning values for the X position PID (optional)<BR>
+  -  Y Adv PID Limits - cluster - Input and output limits for the Y position PID  (Optional.)<BR>
+  -  Y Adv PID Tuning - cluster - Tuning values for the Y position PID (optional)<BR>
+  -  Rot Adv PID Limits - cluster - Input and output limits for the rotation position PID.  Note this PID must be set to continuous  (Optional.)<BR>
+  -  Rot Adv PID Tuning - cluster - Tuning values for the rotational position PID (optional)<BR>
+  -  X Y Pos Tolerance - double - Distance (Meters) to be considered on target.  (Defaultt 0.0381)<BR>
+  -  Rot Pos Tolerance - double - Rotation (Degrees) to be considered on target.  (Defaultt 10.0)<BR>
+  -  X Y Vel Tolerance - double - Velocity (Meters/Second) to be considered on target.  (Defaultt 1.0)<BR>
+  -  Rot Vel Tolerance - double - Velocity (Degrees/Second) to be considered on target.  (Defaultt 30.0)<BR>
+<BR>
+Outputs:<BR>
+  -  ChoreoSwerveControlConfig - cluster - packed controller configuration.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Choreo_TrajectoryFromJSON" >Choreo_Choreo_TrajectoryFromJSON</h3>

@@ -1,7 +1,7 @@
 ==============================================================================
-Copyrights and Licenses for Third Party Software Distributed with FRC LV TRAJECTORY LIbrary
+Copyrights and Licenses for Third Party Software Distributed with WPILIB Math LabVIEW LIbrary
 ==============================================================================
-The FRC LV Trajectory Library software contains code written by and derived from 
+The WPILIB Math LabVIEW Library software contains code written by and derived from 
 third parties.  The copyrights, license, and restrictions which apply to each piece 
 of software is included later in this file and/or inside of the individual 
 applicable source files.

@@ -5,8 +5,8 @@ source is here C:\Shares\github\SleipnirGroup-Choreo\choreolib\src\main\java\com
 
 Work list:
 	x add tolerance to controller and command, update macro
-	- document
-	- package
+	X document
+	X package
 	- release
 	X finish examples.
 

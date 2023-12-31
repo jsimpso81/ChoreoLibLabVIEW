@@ -10,42 +10,114 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_FieldWidth" >Choreo_TrajectoryState_FieldWidth</h3>
 <p><IMG SRC="Choreo_TrajectoryState_FieldWidth_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return FRC field width.  This is valid for the current game only.<BR>
+<BR>
+Inputs:<BR>
+  <none><BR>
+<BR>
+Outputs: <BR>
+  -  Field_Width_Meters  -  double  -  Playing field width.  meters<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_Flipped" >Choreo_TrajectoryState_Flipped</h3>
 <p><IMG SRC="Choreo_TrajectoryState_Flipped_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return "flipped:" trajectory state, mirrored accros the field mid-line.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+<BR>
+Outputs: <BR>
+  -  Flipped_ChoreoTrajectoryState  - cluster  -this state, mirrored across the field midline.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_GetAll" >Choreo_TrajectoryState_GetAll</h3>
 <p><IMG SRC="Choreo_TrajectoryState_GetAll_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return individual data from a ChoreoTrajectoryState cluster<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+<BR>
+Outputs: <BR>
+  -  timestamp  -  double  -  The timestamp of this state, relative to the beginning of the trajectory.<BR>
+  -  x  -  double  -  The X position of the state in meters. <BR>
+  -  y  -  double  -  The Y position of the state in meters.<BR>
+  -  heading  - double  -  The heading of the state in radians, with 0 being in the +X direction.<BR>
+  -  velocityX  -  double  -  The velocity of the state in the X direction in m/s.<BR>
+  -  velocityY  -  double  -  The velocity of the state in the X direction in m/s.<BR>
+  -  angularVelocity  -  double  -  The angular velocity of the state in rad/s.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_GetChassisSpeeds" >Choreo_TrajectoryState_GetChassisSpeeds</h3>
 <p><IMG SRC="Choreo_TrajectoryState_GetChassisSpeeds_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return desired chassis speed from the trajectory state.  This can be used as a feed forward for control.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+<BR>
+Outputs: <BR>
+  -  ChassisSpeeds - cluster - the field-relative chassis speeds of this state.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_GetPose" >Choreo_TrajectoryState_GetPose</h3>
 <p><IMG SRC="Choreo_TrajectoryState_GetPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return the pose2d of this state.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+<BR>
+Outputs: <BR>
+  -  Pose2d  -  cluster  -  the pose at this state.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_GetTime" >Choreo_TrajectoryState_GetTime</h3>
 <p><IMG SRC="Choreo_TrajectoryState_GetTime_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return the timestamp of this state.   This is the elapsed seconds from the start of the trajectory.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+<BR>
+Outputs: <BR>
+  - timestamp  -  double  -  The timestamp of this state.  Seconds.<BR>
+<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_Interpolate" >Choreo_TrajectoryState_Interpolate</h3>
 <p><IMG SRC="Choreo_TrajectoryState_Interpolate_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Interpolate between two trajectory states.<BR>
+<BR>
+Inputs:<BR>
+  -  ChoreoTrajectoryState - cluster - The earlier trajectory state.<BR>
+  -  EndValue_TrajectoryState - cluster  -  The next state. It should have a timestamp after this state.<BR>
+  -  T  -  double  -  the timestamp of the interpolated state. It should be between this state and endValue.<BR>
+<BR>
+Outputs:<BR>
+  -  InterpolatedState  -  cluster  -  Interpolated trajectory state.<BR>
+<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_TrajectoryState_New" >Choreo_TrajectoryState_New</h3>
 <p><IMG SRC="Choreo_TrajectoryState_New_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create a ChoreoTrajectoryState cluster from individual elements.<BR>
+<BR>
+Inputs:<BR>
+  -  timestamp  -  double  -  The timestamp of this state, relative to the beginning of the trajectory.<BR>
+  -  x  -  double  -  The X position of the state in meters. <BR>
+  -  y  -  double  -  The Y position of the state in meters.<BR>
+  -  heading  - double  -  The heading of the state in radians, with 0 being in the +X direction.<BR>
+  -  velocityX  -  double  -  The velocity of the state in the X direction in m/s.<BR>
+  -  velocityY  -  double  -  The velocity of the state in the X direction in m/s.<BR>
+  -  angularVelocity  -  double  -  The angular velocity of the state in rad/s.<BR>
+<BR>
+Outputs: <BR>
+  -  ChoreoTrajectoryState  - cluster  - Individual trajectory state<BR>
+</pre></p>
 <br>
 </BODY>
 </HTML>

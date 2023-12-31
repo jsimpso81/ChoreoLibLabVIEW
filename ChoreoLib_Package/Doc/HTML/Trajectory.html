@@ -10,79 +10,117 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_Flipped" >Choreo_Trajectory_Flipped</h3>
 <p><IMG SRC="Choreo_Trajectory_Flipped_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">trajectory, mirrored across the field midline.<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
 <BR>
 Outputs:<BR>
+  -  Flipped Trajectory  -  cluster  -  trajectory, mirrored across the field midline.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_GetFinalPose" >Choreo_Trajectory_GetFinalPose</h3>
 <p><IMG SRC="Choreo_Trajectory_GetFinalPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return final pose of this trajectory<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
 <BR>
 Outputs:<BR>
+  -  Final Pose  -  pose2d  - the final, non-mirrored pose of the trajectory.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_GetInitialPose" >Choreo_Trajectory_GetInitialPose</h3>
 <p><IMG SRC="Choreo_Trajectory_GetInitialPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return initial pose of this trajectory<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
 <BR>
 Outputs:<BR>
+  -  Initial Pose  -  pose2d  - the initial, non-mirrored pose of the trajectory.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_GetPoses" >Choreo_Trajectory_GetPoses</h3>
 <p><IMG SRC="Choreo_Trajectory_GetPoses_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return all posse of this trajectory<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
 <BR>
 Outputs:<BR>
+  -  Poses  -  pose2d array  - all, non-mirrored poses of the trajectory.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_GetTotalTime" >Choreo_Trajectory_GetTotalTime</h3>
 <p><IMG SRC="Choreo_Trajectory_GetTotalTime_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return total time duration of this trajectory<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
 <BR>
 Outputs:<BR>
+  -  TotalTime  -  double  - The total time duration of this trajectory.<BR>
+.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_GetTrajState" >Choreo_Trajectory_GetTrajState</h3>
 <p><IMG SRC="Choreo_Trajectory_GetTrajState_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return a single trajectory state from the trajectory.<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  Input trajectory<BR>
+  -  Index  -  integer  -  index into the trajectory state array.  Beginning index is zero.<BR>
 <BR>
 Outputs:<BR>
+  -  Trajectory state  -  cluster  - the selectred trajectory state..<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_New_Empty" >Choreo_Trajectory_New_Empty</h3>
 <p><IMG SRC="Choreo_Trajectory_New_Empty_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create an empty trajectory<BR>
+<BR>
 Inputs: <BR>
+  <none><BR>
 <BR>
 Outputs:<BR>
+  -  ChoreoTrajectory - array  -  Empty array of Trajectory states.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_Sample" >Choreo_Trajectory_Sample</h3>
 <p><IMG SRC="Choreo_Trajectory_Sample_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Return an interpolated sample of the trajectory at the given timestamp.<BR>
+<BR>
 Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  The trajectory to sample.<BR>
+  -  timestamp  -  double  -  The timestamp of this sample relative to the beginning of the trajectory.<BR>
+  -  mirrorForRedAlliance  -  boolean  -  whether or not to return the sample as mirrored across the field midline (as in 2023).  (Optional.  Default: false )<BR>
 <BR>
 Outputs:<BR>
+  -  ChoreoTrajectoryState  - cluster - The ChoreoTrajectoryState at the given time.<BR>
+<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="Choreo_Trajectory_SampleInternal" >Choreo_Trajectory_SampleInternal</h3>
 <p><IMG SRC="Choreo_Trajectory_SampleInternal_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">This is an internal routine.  It should NOT be called by the end user.  Return an interpolated sample of the trajectory at the given timestamp.<BR>
+<BR>
+Inputs: <BR>
+  -  ChoreoTrajectory  -  cluster  -  The trajectory to sample.<BR>
+  -  timestamp  -  double  -  The timestamp of this sample relative to the beginning of the trajectory.<BR>
+<BR>
+Outputs:<BR>
+  -  ChoreoTrajectoryState  - cluster - The ChoreoTrajectoryState at the given time.<BR>
+<BR>
+</pre></p>
 <br>
 </BODY>
 </HTML>
