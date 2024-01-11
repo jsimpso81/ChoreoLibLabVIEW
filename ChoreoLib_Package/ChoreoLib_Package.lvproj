@@ -95,10 +95,11 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/vi.lib</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{73A8E09A-EEB7-4C41-B223-109DA062DE0B}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/1_SourceDistribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_version.build" Type="Int">16</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/vi.lib</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -119,7 +120,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4995B49F-93F2-47B3-9F4F-53EB904C2176}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{321283FA-C846-4702-B25F-E2603A245300}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -192,10 +193,10 @@
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
 				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[2].Type" Type="Str">Package</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
@@ -272,7 +273,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
 			</Item>
 			<Item Name="ChoreoLib_LV2020" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
@@ -324,10 +325,10 @@
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
 				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[2].Type" Type="Str">Package</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
@@ -404,7 +405,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
 			</Item>
 			<Item Name="ChoreoLib_LV2023" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
@@ -456,10 +457,10 @@
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
 				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[2].Type" Type="Str">Package</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
@@ -536,7 +537,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
