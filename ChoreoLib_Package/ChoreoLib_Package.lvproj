@@ -98,8 +98,9 @@
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/1_SourceDistribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">2024</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/vi.lib</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -120,7 +121,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{321283FA-C846-4702-B25F-E2603A245300}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B66728DE-FB00-4F07-93E9-84172D5ACCFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -153,7 +154,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2019_2024.0.0-14_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2019_2024.0.1-16_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -161,7 +162,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">15</Property>
+				<Property Name="PKG_buildNumber" Type="Int">17</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -191,10 +192,10 @@
 				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-compactrio-runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
@@ -202,10 +203,10 @@
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
-				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-compactrio-runtime</Property>
-				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
+				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
+				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of Choreo to LabVIEW</Property>
@@ -273,7 +274,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.1</Property>
 			</Item>
 			<Item Name="ChoreoLib_LV2020" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
@@ -285,7 +286,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2020_2024.0.0-14_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2020_2024.0.1-16_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -293,7 +294,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">15</Property>
+				<Property Name="PKG_buildNumber" Type="Int">17</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2020</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -323,10 +324,10 @@
 				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-compactrio-runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
@@ -334,10 +335,10 @@
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
-				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-compactrio-runtime</Property>
-				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
+				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
+				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of Choreo to LabVIEW</Property>
@@ -405,7 +406,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.1</Property>
 			</Item>
 			<Item Name="ChoreoLib_LV2023" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
@@ -417,7 +418,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2023_2024.0.0-14_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2023_2024.0.1-16_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -425,7 +426,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">15</Property>
+				<Property Name="PKG_buildNumber" Type="Int">17</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2023</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -455,10 +456,10 @@
 				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-compactrio-runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
 				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
@@ -466,10 +467,10 @@
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MinVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">NI CompactRIO Driver</Property>
-				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-compactrio-runtime</Property>
-				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">Runtime driver support for CompactRIO Reconfigurable Embedded Targets. This also includes support for sbRIO and MXI-Express Targets.</Property>
+				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
+				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of Choreo to LabVIEW</Property>
@@ -537,7 +538,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">ChoreoLib Install Package</Property>
-				<Property Name="PKG_version" Type="Str">2024.0.0</Property>
+				<Property Name="PKG_version" Type="Str">2024.0.1</Property>
 			</Item>
 		</Item>
 	</Item>
