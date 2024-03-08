@@ -1,4 +1,5 @@
-[
+{
+  "samples": [
     {
         "timestamp": 0,
         "x": 5.982723236083984,
@@ -728,4 +729,6 @@
         "velocityY": 1.0517742336989922e-32,
         "angularVelocity": 0
     }
-]
+],
+"eventMarkers": []
+} 
