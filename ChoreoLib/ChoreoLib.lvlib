@@ -9,46 +9,95 @@
 	<Property Name="NI_IconEditor" Type="Str">49 57 48 48 56 48 48 53 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 34 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 182 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 4 70 105 108 108 100 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 10 1 0
 
 </Property>
-	<Item Name="Enum" Type="Folder"/>
+	<Item Name="Enum" Type="Folder">
+		<Item Name="Choreo_Util_CommandType_ENUM.ctl" Type="VI" URL="../ENum/Choreo_Util_CommandType_ENUM.ctl"/>
+	</Item>
 	<Item Name="Macros" Type="Folder">
-		<Item Name="_macro_Choreo_Command.vi" Type="VI" URL="../Macros/_macro_Choreo_Command.vi"/>
-		<Item Name="_macro_Choreo_GetTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetTrajectory.vi"/>
+		<Item Name="_macro_Choreo_CommandSwerve.vi" Type="VI" URL="../Macros/_macro_Choreo_CommandSwerve.vi"/>
+		<Item Name="_macro_Choreo_GetSwerveTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetSwerveTrajectory.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
+		<Item Name="ChoreoEventMarker.ctl" Type="VI" URL="../TypeDef/ChoreoEventMarker.ctl"/>
 		<Item Name="ChoreoSwerveControlConfig.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveControlConfig.ctl"/>
-		<Item Name="ChoreoTrajectory.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectory.ctl"/>
-		<Item Name="ChoreoTrajectoryState.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectoryState.ctl"/>
+		<Item Name="ChoreoSwerveSample.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveSample.ctl"/>
+		<Item Name="ChoreoTrajectoryCacheSwerve.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectoryCacheSwerve.ctl"/>
+		<Item Name="ChoreoTrajectorySwerve.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectorySwerve.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
+		<Item Name="ByteBuffer" Type="Folder">
+			<Item Name="Choreo_ByteBuffer_decode_Boolean.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Boolean.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_ByteI8.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_ByteI8.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_Flt32.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Flt32.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_Flt64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Flt64.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_Int16.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Int16.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_Int32.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Int32.vi"/>
+			<Item Name="Choreo_ByteBuffer_decode_Int64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_decode_Int64.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_Boolean.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Boolean.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_ByteI8.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_ByteI8.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_FLT32.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_FLT32.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_FLT64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_FLT64.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_Int16.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Int16.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_Int32.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Int32.vi"/>
+			<Item Name="Choreo_ByteBuffer_encode_Int64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Int64.vi"/>
+		</Item>
 		<Item Name="Choreo" Type="Folder">
-			<Item Name="Choreo_Choreo_GetTrajectory.vi" Type="VI" URL="../VI/Choreo_Choreo_GetTrajectory.vi"/>
 			<Item Name="Choreo_Choreo_SwerveCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveCommand.vi"/>
 			<Item Name="Choreo_Choreo_SwerveController.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveController.vi"/>
 			<Item Name="Choreo_Choreo_SwerveControllerPackConfig.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveControllerPackConfig.vi"/>
-			<Item Name="Choreo_Choreo_TrajectoryFromJSON.vi" Type="VI" URL="../VI/Choreo_Choreo_TrajectoryFromJSON.vi"/>
 		</Item>
-		<Item Name="ChoreoTrajectory" Type="Folder">
-			<Item Name="Choreo_Trajectory_Flipped.vi" Type="VI" URL="../VI/Choreo_Trajectory_Flipped.vi"/>
-			<Item Name="Choreo_Trajectory_GetFinalPose.vi" Type="VI" URL="../VI/Choreo_Trajectory_GetFinalPose.vi"/>
-			<Item Name="Choreo_Trajectory_GetInitialPose.vi" Type="VI" URL="../VI/Choreo_Trajectory_GetInitialPose.vi"/>
-			<Item Name="Choreo_Trajectory_GetPoses.vi" Type="VI" URL="../VI/Choreo_Trajectory_GetPoses.vi"/>
-			<Item Name="Choreo_Trajectory_GetTotalTime.vi" Type="VI" URL="../VI/Choreo_Trajectory_GetTotalTime.vi"/>
-			<Item Name="Choreo_Trajectory_GetTrajState.vi" Type="VI" URL="../VI/Choreo_Trajectory_GetTrajState.vi"/>
-			<Item Name="Choreo_Trajectory_New_Empty.vi" Type="VI" URL="../VI/Choreo_Trajectory_New_Empty.vi"/>
-			<Item Name="Choreo_Trajectory_Sample.vi" Type="VI" URL="../VI/Choreo_Trajectory_Sample.vi"/>
-			<Item Name="Choreo_Trajectory_SampleInternal.vi" Type="VI" URL="../VI/Choreo_Trajectory_SampleInternal.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-			</Item>
+		<Item Name="ChoreoEventMarker" Type="Folder">
+			<Item Name="Choreo_EventMarker_Equals.vi" Type="VI" URL="../VI/Choreo_EventMarker_Equals.vi"/>
+			<Item Name="Choreo_EventMarker_FromJSON.vi" Type="VI" URL="../VI/Choreo_EventMarker_FromJSON.vi"/>
+			<Item Name="Choreo_EventMarker_FromJSON_Data.vi" Type="VI" URL="../VI/Choreo_EventMarker_FromJSON_Data.vi"/>
 		</Item>
-		<Item Name="ChoreoTrajectoryState" Type="Folder">
-			<Item Name="Choreo_TrajectoryState_FieldWidth.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_FieldWidth.vi"/>
-			<Item Name="Choreo_TrajectoryState_Flipped.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_Flipped.vi"/>
-			<Item Name="Choreo_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_GetAll.vi"/>
-			<Item Name="Choreo_TrajectoryState_GetChassisSpeeds.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_GetChassisSpeeds.vi"/>
-			<Item Name="Choreo_TrajectoryState_GetPose.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_GetPose.vi"/>
-			<Item Name="Choreo_TrajectoryState_GetTime.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_GetTime.vi"/>
-			<Item Name="Choreo_TrajectoryState_Interpolate.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_Interpolate.vi"/>
-			<Item Name="Choreo_TrajectoryState_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryState_New.vi"/>
+		<Item Name="ChoreoSwerve" Type="Folder">
+			<Item Name="Choreo_ChoreoSwerve_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_AvailableTrajectories.vi"/>
+			<Item Name="Choreo_ChoreoSwerve_Globals.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_Globals.vi"/>
+			<Item Name="Choreo_ChoreoSwerve_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectory.vi"/>
+			<Item Name="Choreo_ChoreoSwerve_LoadTrajectoryString.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectoryString.vi"/>
+		</Item>
+		<Item Name="ChoreoSwerveSample" Type="Folder">
+			<Item Name="Choreo_SwerveSample_Equals.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Equals.vi"/>
+			<Item Name="Choreo_SwerveSample_GetChassisSpeeds.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetChassisSpeeds.vi"/>
+			<Item Name="Choreo_SwerveSample_GetPose.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetPose.vi"/>
+			<Item Name="Choreo_SwerveSample_GetTimestamp.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetTimestamp.vi"/>
+			<Item Name="Choreo_SwerveSample_GetTypeName.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetTypeName.vi"/>
+			<Item Name="Choreo_SwerveSample_Interpolate.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Interpolate.vi"/>
+			<Item Name="Choreo_SwerveSample_ModuleForcesX.vi" Type="VI" URL="../VI/Choreo_SwerveSample_ModuleForcesX.vi"/>
+			<Item Name="Choreo_SwerveSample_ModuleForcesY.vi" Type="VI" URL="../VI/Choreo_SwerveSample_ModuleForcesY.vi"/>
+			<Item Name="Choreo_SwerveSample_New.vi" Type="VI" URL="../VI/Choreo_SwerveSample_New.vi"/>
+			<Item Name="Choreo_SwerveSample_OffsetBy.vi" Type="VI" URL="../VI/Choreo_SwerveSample_OffsetBy.vi"/>
+			<Item Name="Choreo_SwerveSample_Pack.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Pack.vi"/>
+			<Item Name="Choreo_SwerveSample_Unpack.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Unpack.vi"/>
+		</Item>
+		<Item Name="ChoreoTrajectoryCacheSwerve" Type="Folder">
+			<Item Name="Choreo_TrajectoryCacheSwerve_Clear.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_Clear.vi"/>
+			<Item Name="Choreo_TrajectoryCacheSwerve_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_LoadTrajectory.vi"/>
+			<Item Name="Choreo_TrajectoryCacheSwerve_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_New.vi"/>
+		</Item>
+		<Item Name="ChoreoTrajectorySwerve" Type="Folder">
+			<Item Name="Choreo_TrajectorySwerve_Events.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Events.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetEvents.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetEvents.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetFinalPose.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetFinalPose.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetFinalSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetFinalSample.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetInitialPose.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetInitialPose.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetInitialSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetInitialSample.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetPoses.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetPoses.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetTotalTime.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetTotalTime.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetTrajSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetTrajSample.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_Name.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Name.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_New.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_New.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_New_Empty.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_New_Empty.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_SampleAt.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_SampleAt.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_SampleInternal.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_SampleInternal.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_Samples.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Samples.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_Splits.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Splits.vi"/>
+		</Item>
+		<Item Name="ChoreoUtil" Type="Folder">
+			<Item Name="Choreo_Util_CommandTypeFromString.vi" Type="VI" URL="../VI/Choreo_Util_CommandTypeFromString.vi"/>
+			<Item Name="Choreo_Util_DefaultDir.vi" Type="VI" URL="../VI/Choreo_Util_DefaultDir.vi"/>
+			<Item Name="Choreo_Util_FieldDimensions.vi" Type="VI" URL="../VI/Choreo_Util_FieldDimensions.vi"/>
+			<Item Name="Choreo_Util_FieldDimensions2026.vi" Type="VI" URL="../VI/Choreo_Util_FieldDimensions2026.vi"/>
 		</Item>
 	</Item>
 </Library>

@@ -1,3 +1,35 @@
+2026 work list
+
+	- swervesample class
+		flipped method
+	- differentialsample class
+		all methods.
+	- trajectoryswerve
+		flipped method
+		getSplit
+		equals
+	- trajectorydiff
+		all methods
+	- eventMarker
+		- constructors
+		- offsetby
+	- ChoreoSwerve
+		all methods
+	- ChoreoDiff
+		all methods
+	- autoChooser
+	- autoFactory
+	- autoRoutine
+	- autoTrajectory
+	- choreoAlert
+	- choreoAllianceFlipUtil
+	- fieldDimensions
+		x done
+	- TrajSchemaVersion.java
+		- review, may not need.
+
+	- labview extensions
+		- execution commands.
 
 Based on ChoreoLib pulled late dec
 source is here C:\Shares\github\SleipnirGroup-Choreo\choreolib\src\main\java\com\choreo\lib
