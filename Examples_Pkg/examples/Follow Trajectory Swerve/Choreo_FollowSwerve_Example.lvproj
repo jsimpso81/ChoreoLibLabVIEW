@@ -971,40 +971,40 @@
 				<Item Name="XBox Axes Indexer.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/XBox Axes Indexer.ctl"/>
 				<Item Name="XBox Buttons Indexer.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/XBox Buttons Indexer.ctl"/>
 			</Item>
-			<Item Name="Accel Data proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel Data proto.ctl"/>
-			<Item Name="Accel proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel proto.ctl"/>
-			<Item Name="Accel Update Ops.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel Update Ops.ctl"/>
-			<Item Name="Accel_PanelSim_Global.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel_PanelSim_Global.vi"/>
-			<Item Name="AnalogOutput_PanelSim_Global.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/AO/AnalogOutput_PanelSim_Global.vi"/>
-			<Item Name="AO Update Ops.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/AO/AO Update Ops.ctl"/>
-			<Item Name="Camera Delay Values.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/Camera Delay Values.vi"/>
-			<Item Name="Encoder_Config_Simulation_Global.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Encoder_Config_Simulation_Global.vi"/>
-			<Item Name="FPGA_CounterConvertEdgeTypeToMode.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterConvertEdgeTypeToMode.vi"/>
-			<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
+			<Item Name="Accel Data proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel Data proto.ctl"/>
+			<Item Name="Accel proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel proto.ctl"/>
+			<Item Name="Accel Update Ops.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel Update Ops.ctl"/>
+			<Item Name="Accel_PanelSim_Global.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Accel/Accel_PanelSim_Global.vi"/>
+			<Item Name="AnalogOutput_PanelSim_Global.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/AO/AnalogOutput_PanelSim_Global.vi"/>
+			<Item Name="AO Update Ops.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/AO/AO Update Ops.ctl"/>
+			<Item Name="Camera Delay Values.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/Camera Delay Values.vi"/>
+			<Item Name="Encoder_Config_Simulation_Global.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Encoder_Config_Simulation_Global.vi"/>
+			<Item Name="FPGA_CounterConvertEdgeTypeToMode.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterConvertEdgeTypeToMode.vi"/>
+			<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="i2c_bus.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
-			<Item Name="i2clib_read.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
-			<Item Name="i2clib_write.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_write.vi"/>
-			<Item Name="i2clib_writeread.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
-			<Item Name="Joystick data proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick data proto.ctl"/>
-			<Item Name="Joystick proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick proto.ctl"/>
-			<Item Name="Joystick Update Ops.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick Update Ops.ctl"/>
-			<Item Name="JSON Delta PWM Update.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/JSON Delta PWM Update.vi"/>
-			<Item Name="JSON Delta Relay Update.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/JSON Delta Relay Update.vi"/>
-			<Item Name="JSON Delta RR Update.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/JSON Delta RR Update.vi"/>
+			<Item Name="i2c_bus.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
+			<Item Name="i2clib_read.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
+			<Item Name="i2clib_write.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_write.vi"/>
+			<Item Name="i2clib_writeread.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
+			<Item Name="Joystick data proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick data proto.ctl"/>
+			<Item Name="Joystick proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick proto.ctl"/>
+			<Item Name="Joystick Update Ops.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick Update Ops.ctl"/>
+			<Item Name="JSON Delta PWM Update.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/JSON Delta PWM Update.vi"/>
+			<Item Name="JSON Delta Relay Update.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/JSON Delta Relay Update.vi"/>
+			<Item Name="JSON Delta RR Update.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/JSON Delta RR Update.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVODE.dll" Type="Document" URL="LVODE.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Make Joystick JSON.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Make Joystick JSON.vi"/>
-			<Item Name="Make PWM JSON.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/Make PWM JSON.vi"/>
-			<Item Name="Make Relay JSON.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Make Relay JSON.vi"/>
-			<Item Name="Make RR JSON.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/Make RR JSON.vi"/>
+			<Item Name="Make Joystick JSON.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Make Joystick JSON.vi"/>
+			<Item Name="Make PWM JSON.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/Make PWM JSON.vi"/>
+			<Item Name="Make Relay JSON.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Make Relay JSON.vi"/>
+			<Item Name="Make RR JSON.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/Make RR JSON.vi"/>
 			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
 			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
 			<Item Name="mxLvGenerateGuid.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGenerateGuid.vi"/>
@@ -1028,43 +1028,43 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
-			<Item Name="PWM data proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM data proto.ctl"/>
-			<Item Name="PWM proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM proto.ctl"/>
-			<Item Name="Relay data proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Relay data proto.ctl"/>
-			<Item Name="Relay proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Relay proto.ctl"/>
-			<Item Name="RoboRIO data proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/RoboRIO data proto.ctl"/>
-			<Item Name="RoboRIO proto.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/RoboRIO proto.ctl"/>
-			<Item Name="Safe Image Get Image.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
-			<Item Name="SendJoystickProtocol.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/SendJoystickProtocol.vi"/>
-			<Item Name="spilib_open.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
-			<Item Name="spilib_setopts.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
-			<Item Name="spilib_setspeed.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
-			<Item Name="WPI_CameraAttributeIsAuto.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraAttributeIsAuto.vi"/>
-			<Item Name="WPI_CameraBasisString.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraBasisString.vi"/>
-			<Item Name="WPI_CameraGet Image Appearance Property.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraGet Image Appearance Property.vi"/>
-			<Item Name="WPI_CameraGetScaledAttr.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraGetScaledAttr.vi"/>
-			<Item Name="WPI_CameraManage Camera Settings.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraManage Camera Settings.vi"/>
-			<Item Name="WPI_CameraRefNum Registry Get.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Get.vi"/>
-			<Item Name="WPI_CameraSet Enum Sensor Property.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraSet Enum Sensor Property.vi"/>
-			<Item Name="WPI_CameraStartStopCount.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraStartStopCount.vi"/>
-			<Item Name="WPI_CameraWhiteBalanceConstants.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraWhiteBalanceConstants.vi"/>
-			<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
-			<Item Name="WPI_CounterDigitalOutputToDigitalSource.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Counter/WPI_CounterDigitalOutputToDigitalSource.vi"/>
-			<Item Name="WPI_ErrAllocAnInvalidRelayIdx.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_ErrAllocAnInvalidRelayIdx.vi"/>
-			<Item Name="WPI_ERRRelayAllocation.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_ERRRelayAllocation.vi"/>
-			<Item Name="WPI_Gyro_ADXRS453_Bit0OddParity.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_Bit0OddParity.vi"/>
-			<Item Name="WPI_Gyro_ADXRS453_BitArrayToSPI.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_BitArrayToSPI.vi"/>
-			<Item Name="WPI_Gyro_ADXRS453_Commands.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_Commands.ctl"/>
-			<Item Name="WPI_Gyro_ADXRS453_ParseSensorData.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_ParseSensorData.vi"/>
-			<Item Name="WPI_Gyro_ADXRS453_ReadRegister.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_ReadRegister.vi"/>
-			<Item Name="WPI_Joystick Info.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_Joystick Info.ctl"/>
-			<Item Name="WPI_MotorControlGetOutput.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlGetOutput.vi"/>
-			<Item Name="WPI_MotorControlInitialize.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlInitialize.vi"/>
-			<Item Name="WPI_MotorControlOpen FusionVenom.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen FusionVenom.vi"/>
-			<Item Name="WPI_MotorControlOpen Jaguar.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen Jaguar.vi"/>
-			<Item Name="WPI_MotorControlRefNum Registry Read Name.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Read Name.vi"/>
-			<Item Name="WPI_RelayCache.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_RelayCache.vi"/>
-			<Item Name="WPI_RelayDoesDevRefExist.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_RelayDoesDevRefExist.vi"/>
+			<Item Name="PWM data proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM data proto.ctl"/>
+			<Item Name="PWM proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM proto.ctl"/>
+			<Item Name="Relay data proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Relay data proto.ctl"/>
+			<Item Name="Relay proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Relay/Relay proto.ctl"/>
+			<Item Name="RoboRIO data proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/RoboRIO data proto.ctl"/>
+			<Item Name="RoboRIO proto.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/RoboRIO/RoboRIO proto.ctl"/>
+			<Item Name="Safe Image Get Image.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
+			<Item Name="SendJoystickProtocol.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/SendJoystickProtocol.vi"/>
+			<Item Name="spilib_open.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
+			<Item Name="spilib_setopts.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
+			<Item Name="spilib_setspeed.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
+			<Item Name="WPI_CameraAttributeIsAuto.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraAttributeIsAuto.vi"/>
+			<Item Name="WPI_CameraBasisString.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraBasisString.vi"/>
+			<Item Name="WPI_CameraGet Image Appearance Property.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraGet Image Appearance Property.vi"/>
+			<Item Name="WPI_CameraGetScaledAttr.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraGetScaledAttr.vi"/>
+			<Item Name="WPI_CameraManage Camera Settings.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraManage Camera Settings.vi"/>
+			<Item Name="WPI_CameraRefNum Registry Get.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Get.vi"/>
+			<Item Name="WPI_CameraSet Enum Sensor Property.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/WPI_CameraSet Enum Sensor Property.vi"/>
+			<Item Name="WPI_CameraStartStopCount.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraStartStopCount.vi"/>
+			<Item Name="WPI_CameraWhiteBalanceConstants.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Camera/USB Support/WPI_CameraWhiteBalanceConstants.vi"/>
+			<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
+			<Item Name="WPI_CounterDigitalOutputToDigitalSource.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Counter/WPI_CounterDigitalOutputToDigitalSource.vi"/>
+			<Item Name="WPI_ErrAllocAnInvalidRelayIdx.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_ErrAllocAnInvalidRelayIdx.vi"/>
+			<Item Name="WPI_ERRRelayAllocation.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_ERRRelayAllocation.vi"/>
+			<Item Name="WPI_Gyro_ADXRS453_Bit0OddParity.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_Bit0OddParity.vi"/>
+			<Item Name="WPI_Gyro_ADXRS453_BitArrayToSPI.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_BitArrayToSPI.vi"/>
+			<Item Name="WPI_Gyro_ADXRS453_Commands.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_Commands.ctl"/>
+			<Item Name="WPI_Gyro_ADXRS453_ParseSensorData.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_ParseSensorData.vi"/>
+			<Item Name="WPI_Gyro_ADXRS453_ReadRegister.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Gyro/ADXRS453/WPI_Gyro_ADXRS453_ReadRegister.vi"/>
+			<Item Name="WPI_Joystick Info.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_Joystick Info.ctl"/>
+			<Item Name="WPI_MotorControlGetOutput.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlGetOutput.vi"/>
+			<Item Name="WPI_MotorControlInitialize.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlInitialize.vi"/>
+			<Item Name="WPI_MotorControlOpen FusionVenom.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen FusionVenom.vi"/>
+			<Item Name="WPI_MotorControlOpen Jaguar.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen Jaguar.vi"/>
+			<Item Name="WPI_MotorControlRefNum Registry Read Name.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Read Name.vi"/>
+			<Item Name="WPI_RelayCache.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_RelayCache.vi"/>
+			<Item Name="WPI_RelayDoesDevRefExist.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Relay/WPI_RelayDoesDevRefExist.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

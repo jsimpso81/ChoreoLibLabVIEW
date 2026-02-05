@@ -47,6 +47,7 @@
 		<Item Name="SubVI" Type="Folder" URL="../SubVI">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Choreo_ReadAllTrajectoryFile_Example.vi" Type="VI" URL="../VI/Choreo_ReadAllTrajectoryFile_Example.vi"/>
 		<Item Name="Choreo_ReadTrajectoryFile_Example.vi" Type="VI" URL="../VI/Choreo_ReadTrajectoryFile_Example.vi"/>
 		<Item Name="Choreo_ReadTrajectoryFile_FGV_Example.vi" Type="VI" URL="../VI/Choreo_ReadTrajectoryFile_FGV_Example.vi"/>
 		<Item Name="Choreo_ReadTrajectoryFIle_Global_Example.vi" Type="VI" URL="../VI/Choreo_ReadTrajectoryFIle_Global_Example.vi"/>
@@ -153,7 +154,6 @@ DirectoryIndex index.htm
 		<Item Name="Choreo_ReadTrajectoryFIle_Global_Example.vi" Type="VI" URL="../VI/Choreo_ReadTrajectoryFIle_Global_Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Choreo_Choreo_GetTrajectory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/ChoreoLib/VI/Choreo_Choreo_GetTrajectory.vi"/>
 				<Item Name="ChoreoLib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/ChoreoLib/ChoreoLib.lvlib"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

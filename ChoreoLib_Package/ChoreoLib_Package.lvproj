@@ -98,7 +98,7 @@
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/1_SourceDistribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -154,7 +154,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2019_2026.0.0-21_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2019_2026.0.0-23_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -162,7 +162,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">22</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -286,7 +286,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2020_2026.0.0-21_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2020_2026.0.0-23_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -294,7 +294,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">22</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2020</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -418,7 +418,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2023_2026.0.0-21_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2023_2026.0.0-23_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -426,7 +426,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">22</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2023</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -550,7 +550,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/ChoreoLib_LV2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2025_2026.0.0-21_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">choreoliblv2025_2026.0.0-23_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port ChoreoLib to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -558,7 +558,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">22</Property>
+				<Property Name="PKG_buildNumber" Type="Int">24</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ChoreoLib_LV2025</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
