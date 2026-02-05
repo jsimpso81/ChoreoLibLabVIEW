@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Enum" Type="Folder">
+		<Item Name="Choreo_Util_AllianceFlipType.ctl" Type="VI" URL="../ENum/Choreo_Util_AllianceFlipType.ctl"/>
 		<Item Name="Choreo_Util_CommandType_ENUM.ctl" Type="VI" URL="../ENum/Choreo_Util_CommandType_ENUM.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
@@ -17,6 +18,7 @@
 		<Item Name="_macro_Choreo_GetSwerveTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetSwerveTrajectory.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
+		<Item Name="ChoreoAllianceFlipYearInfo.ctl" Type="VI" URL="../TypeDef/ChoreoAllianceFlipYearInfo.ctl"/>
 		<Item Name="ChoreoEventMarker.ctl" Type="VI" URL="../TypeDef/ChoreoEventMarker.ctl"/>
 		<Item Name="ChoreoSwerveControlConfig.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveControlConfig.ctl"/>
 		<Item Name="ChoreoSwerveSample.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveSample.ctl"/>
@@ -41,6 +43,7 @@
 			<Item Name="Choreo_ByteBuffer_encode_Int64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Int64.vi"/>
 		</Item>
 		<Item Name="Choreo" Type="Folder">
+			<Item Name="Choreo_Choreo_Globals.vi" Type="VI" URL="../VI/Choreo_Choreo_Globals.vi"/>
 			<Item Name="Choreo_Choreo_SwerveCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveCommand.vi"/>
 			<Item Name="Choreo_Choreo_SwerveController.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveController.vi"/>
 			<Item Name="Choreo_Choreo_SwerveControllerPackConfig.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveControllerPackConfig.vi"/>
@@ -49,15 +52,18 @@
 			<Item Name="Choreo_EventMarker_Equals.vi" Type="VI" URL="../VI/Choreo_EventMarker_Equals.vi"/>
 			<Item Name="Choreo_EventMarker_FromJSON.vi" Type="VI" URL="../VI/Choreo_EventMarker_FromJSON.vi"/>
 			<Item Name="Choreo_EventMarker_FromJSON_Data.vi" Type="VI" URL="../VI/Choreo_EventMarker_FromJSON_Data.vi"/>
+			<Item Name="Choreo_EventMarker_New.vi" Type="VI" URL="../VI/Choreo_EventMarker_New.vi"/>
+			<Item Name="Choreo_EventMarker_OffsetBy.vi" Type="VI" URL="../VI/Choreo_EventMarker_OffsetBy.vi"/>
 		</Item>
 		<Item Name="ChoreoSwerve" Type="Folder">
 			<Item Name="Choreo_ChoreoSwerve_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_AvailableTrajectories.vi"/>
-			<Item Name="Choreo_ChoreoSwerve_Globals.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_Globals.vi"/>
+			<Item Name="Choreo_ChoreoSwerve_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadAllTrajectories.vi"/>
 			<Item Name="Choreo_ChoreoSwerve_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectory.vi"/>
 			<Item Name="Choreo_ChoreoSwerve_LoadTrajectoryString.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectoryString.vi"/>
 		</Item>
 		<Item Name="ChoreoSwerveSample" Type="Folder">
 			<Item Name="Choreo_SwerveSample_Equals.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Equals.vi"/>
+			<Item Name="Choreo_SwerveSample_Flipped.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Flipped.vi"/>
 			<Item Name="Choreo_SwerveSample_GetChassisSpeeds.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetChassisSpeeds.vi"/>
 			<Item Name="Choreo_SwerveSample_GetPose.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetPose.vi"/>
 			<Item Name="Choreo_SwerveSample_GetTimestamp.vi" Type="VI" URL="../VI/Choreo_SwerveSample_GetTimestamp.vi"/>
@@ -76,13 +82,16 @@
 			<Item Name="Choreo_TrajectoryCacheSwerve_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_New.vi"/>
 		</Item>
 		<Item Name="ChoreoTrajectorySwerve" Type="Folder">
+			<Item Name="Choreo_TrajectorySwerve_Equals.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Equals.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_Events.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Events.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_Flipped.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Flipped.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetEvents.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetEvents.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetFinalPose.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetFinalPose.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetFinalSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetFinalSample.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetInitialPose.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetInitialPose.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetInitialSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetInitialSample.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetPoses.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetPoses.vi"/>
+			<Item Name="Choreo_TrajectorySwerve_GetSplit.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetSplit.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetTotalTime.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetTotalTime.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_GetTrajSample.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_GetTrajSample.vi"/>
 			<Item Name="Choreo_TrajectorySwerve_Name.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Name.vi"/>
@@ -94,6 +103,18 @@
 			<Item Name="Choreo_TrajectorySwerve_Splits.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Splits.vi"/>
 		</Item>
 		<Item Name="ChoreoUtil" Type="Folder">
+			<Item Name="Choreo_Util_AllianceFlipGetFlipper.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipGetFlipper.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipGetYearInfoNOT_DONE.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipGetYearInfoNOT_DONE.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipHeading.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipHeading.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipPose2d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipPose2d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipPose3d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipPose3d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipRotation2d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipRotation2d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipRotation3d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipRotation3d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipShouldFlip.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipShouldFlip.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipTranslation2d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipTranslation2d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipTranslation3d.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipTranslation3d.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipX.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipX.vi"/>
+			<Item Name="Choreo_Util_AllianceFlipY.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipY.vi"/>
 			<Item Name="Choreo_Util_CommandTypeFromString.vi" Type="VI" URL="../VI/Choreo_Util_CommandTypeFromString.vi"/>
 			<Item Name="Choreo_Util_DefaultDir.vi" Type="VI" URL="../VI/Choreo_Util_DefaultDir.vi"/>
 			<Item Name="Choreo_Util_FieldDimensions.vi" Type="VI" URL="../VI/Choreo_Util_FieldDimensions.vi"/>

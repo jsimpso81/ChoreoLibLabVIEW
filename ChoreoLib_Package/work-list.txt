@@ -1,35 +1,47 @@
 2026 work list
 
-	- swervesample class
-		flipped method
+	/ swervesample class
+		X flipped method
+		- documentation 
 	- differentialsample class
-		all methods.
-	- trajectoryswerve
-		flipped method
-		getSplit
-		equals
+		- all methods.
+		- documentation
+	/ trajectoryswerve
+		x flipped method
+		x getSplit
+		x equals
+		- documentation
 	- trajectorydiff
-		all methods
-	- eventMarker
-		- constructors
-		- offsetby
+		- all methods
+		- documentation
+	/ eventMarker
+		X constructors
+		X offsetby
+		- documentation
 	- ChoreoSwerve
-		all methods
+		- all methods
+		- cache.loadtrajectory( with split )
+		- documentation
 	- ChoreoDiff
-		all methods
+		- all methods
+		- documenttion
+	- choreoAllianceFlipUtil
+		/ all methods
+		- documentation
+	- fieldDimensions
+		x done
+		- documentation
+	- TrajSchemaVersion.java
+		- review, may not need.
 	- autoChooser
 	- autoFactory
 	- autoRoutine
 	- autoTrajectory
 	- choreoAlert
-	- choreoAllianceFlipUtil
-	- fieldDimensions
-		x done
-	- TrajSchemaVersion.java
-		- review, may not need.
 
 	- labview extensions
 		- execution commands.
+	- DOCUMENTATION
 
 Based on ChoreoLib pulled late dec
 source is here C:\Shares\github\SleipnirGroup-Choreo\choreolib\src\main\java\com\choreo\lib
