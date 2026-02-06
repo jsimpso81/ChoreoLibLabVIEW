@@ -12,6 +12,7 @@
 	<Item Name="Enum" Type="Folder">
 		<Item Name="Choreo_Util_AllianceFlipType.ctl" Type="VI" URL="../ENum/Choreo_Util_AllianceFlipType.ctl"/>
 		<Item Name="Choreo_Util_CommandType_ENUM.ctl" Type="VI" URL="../ENum/Choreo_Util_CommandType_ENUM.ctl"/>
+		<Item Name="Choreo_Util_TrajectoryType.ctl" Type="VI" URL="../ENum/Choreo_Util_TrajectoryType.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
 		<Item Name="_macro_Choreo_CommandSwerve.vi" Type="VI" URL="../Macros/_macro_Choreo_CommandSwerve.vi"/>
@@ -19,10 +20,13 @@
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="ChoreoAllianceFlipYearInfo.ctl" Type="VI" URL="../TypeDef/ChoreoAllianceFlipYearInfo.ctl"/>
+		<Item Name="ChoreoDifferentialSample.ctl" Type="VI" URL="../TypeDef/ChoreoDifferentialSample.ctl"/>
 		<Item Name="ChoreoEventMarker.ctl" Type="VI" URL="../TypeDef/ChoreoEventMarker.ctl"/>
 		<Item Name="ChoreoSwerveControlConfig.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveControlConfig.ctl"/>
 		<Item Name="ChoreoSwerveSample.ctl" Type="VI" URL="../TypeDef/ChoreoSwerveSample.ctl"/>
+		<Item Name="ChoreoTrajectoryCacheDifferential.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectoryCacheDifferential.ctl"/>
 		<Item Name="ChoreoTrajectoryCacheSwerve.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectoryCacheSwerve.ctl"/>
+		<Item Name="ChoreoTrajectoryDifferential.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectoryDifferential.ctl"/>
 		<Item Name="ChoreoTrajectorySwerve.ctl" Type="VI" URL="../TypeDef/ChoreoTrajectorySwerve.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
@@ -43,10 +47,32 @@
 			<Item Name="Choreo_ByteBuffer_encode_Int64.vi" Type="VI" URL="../VI/Choreo_ByteBuffer_encode_Int64.vi"/>
 		</Item>
 		<Item Name="Choreo" Type="Folder">
+			<Item Name="Choreo_Choreo_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_AvailableTrajectories.vi"/>
 			<Item Name="Choreo_Choreo_Globals.vi" Type="VI" URL="../VI/Choreo_Choreo_Globals.vi"/>
 			<Item Name="Choreo_Choreo_SwerveCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveCommand.vi"/>
 			<Item Name="Choreo_Choreo_SwerveController.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveController.vi"/>
 			<Item Name="Choreo_Choreo_SwerveControllerPackConfig.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveControllerPackConfig.vi"/>
+		</Item>
+		<Item Name="ChoreoDifferential" Type="Folder">
+			<Item Name="Choreo_ChoreoDifferential_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoDifferential_LoadAllTrajectories.vi"/>
+			<Item Name="Choreo_ChoreoDifferential_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_ChoreoDifferential_LoadTrajectory.vi"/>
+			<Item Name="Choreo_ChoreoDifferential_LoadTrajectoryString.vi" Type="VI" URL="../VI/Choreo_ChoreoDifferential_LoadTrajectoryString.vi"/>
+		</Item>
+		<Item Name="ChoreoDifferentialSample" Type="Folder">
+			<Item Name="Choreo_DifferentialSample_Equals.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Equals.vi"/>
+			<Item Name="Choreo_DifferentialSample_Flipped.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Flipped.vi"/>
+			<Item Name="Choreo_DifferentialSample_GetChassisSpeeds.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_GetChassisSpeeds.vi"/>
+			<Item Name="Choreo_DifferentialSample_GetPose.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_GetPose.vi"/>
+			<Item Name="Choreo_DifferentialSample_GetTimestamp.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_GetTimestamp.vi"/>
+			<Item Name="Choreo_DifferentialSample_GetTypeName.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_GetTypeName.vi"/>
+			<Item Name="Choreo_DifferentialSample_IntegrateFunction.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_IntegrateFunction.vi"/>
+			<Item Name="Choreo_DifferentialSample_Interpolate.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Interpolate.vi"/>
+			<Item Name="Choreo_DifferentialSample_ModuleForcesX.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForcesX.vi"/>
+			<Item Name="Choreo_DifferentialSample_ModuleForcesY.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForcesY.vi"/>
+			<Item Name="Choreo_DifferentialSample_New.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_New.vi"/>
+			<Item Name="Choreo_DifferentialSample_OffsetBy.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_OffsetBy.vi"/>
+			<Item Name="Choreo_DifferentialSample_Pack.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Pack.vi"/>
+			<Item Name="Choreo_DifferentialSample_Unpack.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Unpack.vi"/>
 		</Item>
 		<Item Name="ChoreoEventMarker" Type="Folder">
 			<Item Name="Choreo_EventMarker_Equals.vi" Type="VI" URL="../VI/Choreo_EventMarker_Equals.vi"/>
@@ -56,7 +82,6 @@
 			<Item Name="Choreo_EventMarker_OffsetBy.vi" Type="VI" URL="../VI/Choreo_EventMarker_OffsetBy.vi"/>
 		</Item>
 		<Item Name="ChoreoSwerve" Type="Folder">
-			<Item Name="Choreo_ChoreoSwerve_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_AvailableTrajectories.vi"/>
 			<Item Name="Choreo_ChoreoSwerve_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadAllTrajectories.vi"/>
 			<Item Name="Choreo_ChoreoSwerve_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectory.vi"/>
 			<Item Name="Choreo_ChoreoSwerve_LoadTrajectoryString.vi" Type="VI" URL="../VI/Choreo_ChoreoSwerve_LoadTrajectoryString.vi"/>
@@ -76,10 +101,36 @@
 			<Item Name="Choreo_SwerveSample_Pack.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Pack.vi"/>
 			<Item Name="Choreo_SwerveSample_Unpack.vi" Type="VI" URL="../VI/Choreo_SwerveSample_Unpack.vi"/>
 		</Item>
+		<Item Name="ChoreoTrajectoryCacheDifferential" Type="Folder">
+			<Item Name="Choreo_TrajectoryCacheDifferential_Clear.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheDifferential_Clear.vi"/>
+			<Item Name="Choreo_TrajectoryCacheDifferential_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheDifferential_LoadTrajectory.vi"/>
+			<Item Name="Choreo_TrajectoryCacheDifferential_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheDifferential_New.vi"/>
+		</Item>
 		<Item Name="ChoreoTrajectoryCacheSwerve" Type="Folder">
 			<Item Name="Choreo_TrajectoryCacheSwerve_Clear.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_Clear.vi"/>
 			<Item Name="Choreo_TrajectoryCacheSwerve_LoadTrajectory.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_LoadTrajectory.vi"/>
 			<Item Name="Choreo_TrajectoryCacheSwerve_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryCacheSwerve_New.vi"/>
+		</Item>
+		<Item Name="ChoreoTrajectoryDifferential" Type="Folder">
+			<Item Name="Choreo_TrajectoryDifferential_Equals.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Equals.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_Events.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Events.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_Flipped.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Flipped.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetEvents.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetEvents.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetFinalPose.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetFinalPose.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetFinalSample.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetFinalSample.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetInitialPose.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetInitialPose.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetInitialSample.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetInitialSample.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetPoses.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetPoses.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetSplit.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetSplit.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetTotalTime.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetTotalTime.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_GetTrajSample.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_GetTrajSample.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_Name.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Name.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_New.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_New.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_New_Empty.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_New_Empty.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_SampleAt.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_SampleAt.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_SampleInternal.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_SampleInternal.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_Samples.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Samples.vi"/>
+			<Item Name="Choreo_TrajectoryDifferential_Splits.vi" Type="VI" URL="../VI/Choreo_TrajectoryDifferential_Splits.vi"/>
 		</Item>
 		<Item Name="ChoreoTrajectorySwerve" Type="Folder">
 			<Item Name="Choreo_TrajectorySwerve_Equals.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Equals.vi"/>
