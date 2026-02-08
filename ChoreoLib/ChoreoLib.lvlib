@@ -49,6 +49,9 @@
 		<Item Name="Choreo" Type="Folder">
 			<Item Name="Choreo_Choreo_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_AvailableTrajectories.vi"/>
 			<Item Name="Choreo_Choreo_Globals.vi" Type="VI" URL="../VI/Choreo_Choreo_Globals.vi"/>
+			<Item Name="Choreo_Choreo_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadAllTrajectories.vi"/>
+			<Item Name="Choreo_Choreo_LoadTrajectoryType.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadTrajectoryType.vi"/>
+			<Item Name="Choreo_Choreo_LoadTrajectoryTypeString.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadTrajectoryTypeString.vi"/>
 			<Item Name="Choreo_Choreo_SwerveCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveCommand.vi"/>
 			<Item Name="Choreo_Choreo_SwerveController.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveController.vi"/>
 			<Item Name="Choreo_Choreo_SwerveControllerPackConfig.vi" Type="VI" URL="../VI/Choreo_Choreo_SwerveControllerPackConfig.vi"/>
@@ -154,6 +157,7 @@
 			<Item Name="Choreo_TrajectorySwerve_Splits.vi" Type="VI" URL="../VI/Choreo_TrajectorySwerve_Splits.vi"/>
 		</Item>
 		<Item Name="ChoreoUtil" Type="Folder">
+			<Item Name="Choreo_Util_AddTrajFileExtension.vi" Type="VI" URL="../VI/Choreo_Util_AddTrajFileExtension.vi"/>
 			<Item Name="Choreo_Util_AllianceFlipGetFlipper.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipGetFlipper.vi"/>
 			<Item Name="Choreo_Util_AllianceFlipGetYearInfoNOT_DONE.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipGetYearInfoNOT_DONE.vi"/>
 			<Item Name="Choreo_Util_AllianceFlipHeading.vi" Type="VI" URL="../VI/Choreo_Util_AllianceFlipHeading.vi"/>
@@ -170,6 +174,7 @@
 			<Item Name="Choreo_Util_DefaultDir.vi" Type="VI" URL="../VI/Choreo_Util_DefaultDir.vi"/>
 			<Item Name="Choreo_Util_FieldDimensions.vi" Type="VI" URL="../VI/Choreo_Util_FieldDimensions.vi"/>
 			<Item Name="Choreo_Util_FieldDimensions2026.vi" Type="VI" URL="../VI/Choreo_Util_FieldDimensions2026.vi"/>
+			<Item Name="Choreo_Util_RemoveTrajFileExtension.vi" Type="VI" URL="../VI/Choreo_Util_RemoveTrajFileExtension.vi"/>
 		</Item>
 	</Item>
 </Library>
