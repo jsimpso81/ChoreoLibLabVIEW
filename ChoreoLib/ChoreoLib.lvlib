@@ -48,6 +48,8 @@
 		</Item>
 		<Item Name="Choreo" Type="Folder">
 			<Item Name="Choreo_Choreo_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_AvailableTrajectories.vi"/>
+			<Item Name="Choreo_Choreo_DifferentialLTVCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialLTVCommand.vi"/>
+			<Item Name="Choreo_Choreo_DifferentialLTVController.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialLTVController.vi"/>
 			<Item Name="Choreo_Choreo_Globals.vi" Type="VI" URL="../VI/Choreo_Choreo_Globals.vi"/>
 			<Item Name="Choreo_Choreo_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadAllTrajectories.vi"/>
 			<Item Name="Choreo_Choreo_LoadTrajectoryType.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadTrajectoryType.vi"/>
@@ -70,8 +72,8 @@
 			<Item Name="Choreo_DifferentialSample_GetTypeName.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_GetTypeName.vi"/>
 			<Item Name="Choreo_DifferentialSample_IntegrateFunction.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_IntegrateFunction.vi"/>
 			<Item Name="Choreo_DifferentialSample_Interpolate.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Interpolate.vi"/>
-			<Item Name="Choreo_DifferentialSample_ModuleForcesX.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForcesX.vi"/>
-			<Item Name="Choreo_DifferentialSample_ModuleForcesY.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForcesY.vi"/>
+			<Item Name="Choreo_DifferentialSample_ModuleForceL.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForceL.vi"/>
+			<Item Name="Choreo_DifferentialSample_ModuleForceR.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_ModuleForceR.vi"/>
 			<Item Name="Choreo_DifferentialSample_New.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_New.vi"/>
 			<Item Name="Choreo_DifferentialSample_OffsetBy.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_OffsetBy.vi"/>
 			<Item Name="Choreo_DifferentialSample_Pack.vi" Type="VI" URL="../VI/Choreo_DifferentialSample_Pack.vi"/>

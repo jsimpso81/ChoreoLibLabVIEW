@@ -1,11 +1,11 @@
 2026 work list
 
-	/ swervesample class
+	X swervesample class
 		X flipped method
-		- documentation 
+		X documentation 
 	- differentialsample class
 		- all methods.
-		- documentation
+		x documentation
 	/ trajectoryswerve
 		x flipped method
 		x getSplit
@@ -13,18 +13,18 @@
 		- documentation
 	- trajectorydiff
 		- all methods
-		- documentation
+		x documentation
 	/ eventMarker
 		X constructors
 		X offsetby
-		- documentation
+		x documentation
 	- ChoreoSwerve
-		- all methods
+		x all methods
 		- cache.loadtrajectory( with split )
 		- documentation
 	- ChoreoDiff
 		- all methods
-		- documenttion
+		x documenttion
 	- choreoAllianceFlipUtil
 		/ all methods
 		- documentation
