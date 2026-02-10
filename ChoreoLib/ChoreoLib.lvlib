@@ -15,8 +15,12 @@
 		<Item Name="Choreo_Util_TrajectoryType.ctl" Type="VI" URL="../ENum/Choreo_Util_TrajectoryType.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
+		<Item Name="_macro_Choreo_CommandDifferentialLTV.vi" Type="VI" URL="../Macros/_macro_Choreo_CommandDifferentialLTV.vi"/>
+		<Item Name="_macro_Choreo_CommandDifferentialRamsete.vi" Type="VI" URL="../Macros/_macro_Choreo_CommandDifferentialRamsete.vi"/>
 		<Item Name="_macro_Choreo_CommandSwerve.vi" Type="VI" URL="../Macros/_macro_Choreo_CommandSwerve.vi"/>
+		<Item Name="_macro_Choreo_GetDifferentialTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetDifferentialTrajectory.vi"/>
 		<Item Name="_macro_Choreo_GetSwerveTrajectory.vi" Type="VI" URL="../Macros/_macro_Choreo_GetSwerveTrajectory.vi"/>
+		<Item Name="_macro_Choreo_ReadAllTrajectories.vi" Type="VI" URL="../Macros/_macro_Choreo_ReadAllTrajectories.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="ChoreoAllianceFlipYearInfo.ctl" Type="VI" URL="../TypeDef/ChoreoAllianceFlipYearInfo.ctl"/>
