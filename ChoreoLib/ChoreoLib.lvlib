@@ -50,6 +50,8 @@
 			<Item Name="Choreo_Choreo_AvailableTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_AvailableTrajectories.vi"/>
 			<Item Name="Choreo_Choreo_DifferentialLTVCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialLTVCommand.vi"/>
 			<Item Name="Choreo_Choreo_DifferentialLTVController.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialLTVController.vi"/>
+			<Item Name="Choreo_Choreo_DifferentialRamseteCommand.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialRamseteCommand.vi"/>
+			<Item Name="Choreo_Choreo_DifferentialRamseteController.vi" Type="VI" URL="../VI/Choreo_Choreo_DifferentialRamseteController.vi"/>
 			<Item Name="Choreo_Choreo_Globals.vi" Type="VI" URL="../VI/Choreo_Choreo_Globals.vi"/>
 			<Item Name="Choreo_Choreo_LoadAllTrajectories.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadAllTrajectories.vi"/>
 			<Item Name="Choreo_Choreo_LoadTrajectoryType.vi" Type="VI" URL="../VI/Choreo_Choreo_LoadTrajectoryType.vi"/>
